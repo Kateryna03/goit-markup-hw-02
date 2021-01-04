@@ -1,0 +1,45 @@
+/*indexhtml стили */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-grey-color: #e5e5e5;
+}
+/*
+color studiobackground: #000000;
+
+color text: #212121;
+tel: #757575;
+#F5F4FA; - background наша команда
+footer tel email color: rgba(255, 255, 255, 0.6);
+
+*/
+
+body {
+  background-color: var(--primary-grey-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+/*Site nav*/
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav-list .link .current {
+  color: var(--accent-color);
+}
+
+/*portfolio стили */
+/*.logo-accent */
