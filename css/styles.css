@@ -4,6 +4,11 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-grey-color: #e5e5e5;
+  --primary-black-color: #000000;
+  --primary-white-color: #ffffff;
+  --primary-adress-color: rgba(255, 255, 255, 0.6);
+  --background-team-color: #f5f4fa;
+  --background-hero-color: #2f303a;
 }
 /*
 color studiobackground: #000000;
@@ -23,11 +28,30 @@ body {
 ul {
   list-style: none;
 }
+.page-header {
+  background-color: var(--primary-white-color);
+}
 
 .logo {
-  color: #000000;
+  color: var(--primary-black-color);
+}
+.logo:hover {
+  color: var(--primary-black-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/*Adress*/
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.link:hover {
+  color: var(--accent-color);
 }
 /*Site nav*/
+
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -37,9 +61,70 @@ ul {
   color: var(--accent-color);
 }
 
-.site-nav-list .link .current {
+.site-nav-list .link .current,
+.logo-accent {
   color: var(--accent-color);
 }
+/*hero*/
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--background-hero-color);
+}
 
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*section*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*advanteges*/
+.section .title {
+  color: var(--title-text-color);
+}
+
+/*Team*/
+.team-title {
+  color: var(--title-text-color);
+}
+
+.name {
+  color: var(--title-text-color);
+}
+
+/*Footer*/
+.footer-page {
+  background-color: var(--background-hero-color);
+}
+
+.footer-logo,
+.footer-adress {
+  color: var(--primary-white-color);
+}
+.footer-logo:hover {
+  color: var(--primary-white-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+.footer-link {
+  color: var(--primary-adress-color);
+}
 /*portfolio стили */
+
+.portfolio-button {
+  color: var(--title-text-color);
+  background-color: var(--background-team-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+}
 /*.logo-accent */
