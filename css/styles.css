@@ -26,7 +26,7 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  
+
 }
 
 ul {
@@ -132,6 +132,10 @@ ul {
 }
 
 /*Team*/
+
+.team-section{
+  background-color: var(--background-team-color);
+}
 
 .name {
   color: var(--title-text-color);
