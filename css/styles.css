@@ -74,7 +74,8 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link:hover {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
 /*Site nav*/
